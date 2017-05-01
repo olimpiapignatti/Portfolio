@@ -75,7 +75,8 @@ h3 { font: normal 16px 'Raleway', sans-serif; margin: 10px; margin-left: 100px; 
 p { font: normal 30px 'Raleway', sans-serif; margin: 12px; color: white; }
 
 .hand>p{
-	margin: 30px 570px 0 -300px;
+	margin: 120px 570px 0 -300px;
+	font-size: 27px;
 }
 
 .all>a {
@@ -113,7 +114,7 @@ p { font: normal 30px 'Raleway', sans-serif; margin: 12px; color: white; }
 	display: block;
 }
 
-.hand { width: 45%; margin-right: 400px; float: right; }
+.hand { width: 45%; margin-right: 110px; float: right; }
 
 .hand { position: relative; }
 

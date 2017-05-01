@@ -246,3 +246,10 @@ p {
 	background-size: cover;
 	float: left;
 }
+
+.rituals{
+	background-image:url(rituals/screenshot.jpg);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}

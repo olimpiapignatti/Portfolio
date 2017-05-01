@@ -50,6 +50,14 @@ h2 {
 	text-decoration: none;
 }
 
+h2>a {
+	font: normal 30px 'Raleway', sans-serif;
+  text-align: center;
+	margin: 10px;
+	color: white;
+	text-decoration: none;
+}
+
 h3 {
 		font: normal 60px 'Raleway', sans-serif;
 	  text-align: center;
