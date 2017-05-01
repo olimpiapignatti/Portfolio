@@ -37,6 +37,20 @@ h2 {
 	color: white;
 	text-decoration: none;
 }
+#nav {
+	width: 100%;
+	font: normal 30px 'Raleway', sans-serif;
+	color: white;
+	margin: -30px 11% 80px -4%;
+	text-decoration: none;
+	position: absolute;
+	list-style-type: none;
+}
+#nav ul li .show { display: none; position: absolute; list-style-type: none; text-decoration: none; }
+#nav ul li:hover .show { display: block; list-style-type: none; margin: 39px 110px}
+#nav ul li a{ font: normal 30px 'Raleway', sans-serif; color: white; list-style-type: none; }
+
+ul { list-style-type: none; }
 
 .projects>a {
 	font: normal 40px 'Raleway', sans-serif;
