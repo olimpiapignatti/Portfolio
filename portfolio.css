@@ -1,0 +1,161 @@
+html, body { width: 100%; height: 100%; background-color: #fd7d13; }
+
+@font-face {
+	font-family: 'Bahiana', cursive;
+	font-family: 'PT Serif', serif;
+	font-family: 'Tangerine', cursive;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Press Start 2P', cursive;
+	src: url(https://fonts.googleapis.com/css?family=Bahiana|PT+Serif|Open+Sans|Tangerine|Raleway|Press+Start+2P); }
+
+
+h1 {
+	font: normal 230px 'Bahiana', cursive;
+	text-align: center;
+	margin: 70px;
+	color: #fdfcf2;
+	text-shadow:
+	 0 1px #808d93,
+	 -1px 0 #cdd2d5,
+	 -1px 2px #808d93,
+	 -2px 1px #cdd2d5,
+	 -2px 3px #808d93,
+	 -3px 2px #cdd2d5,
+	 -3px 4px #808d93,
+	 -4px 3px #cdd2d5,
+	 -4px 5px #808d93,
+	 -5px 4px #cdd2d5,
+	 -5px 6px #808d93,
+	 -6px 5px #cdd2d5,
+	 -6px 7px #808d93,
+	 -7px 6px #cdd2d5,
+	 -7px 8px #808d93;
+	text-decoration: none;
+}
+
+h1>a {
+	color: #fdfcf2;
+	text-decoration: none;
+}
+
+h2 {
+	font: normal 30px 'Raleway', sans-serif;
+  text-align: center;
+	margin: 0;
+	color: white;
+	text-decoration: none;
+}
+
+.projects>a {
+	font: normal 30px 'Raleway', sans-serif;
+  text-align: center;
+	float:left;
+	margin: 10px 400px 80px 70px;
+	color: white;
+	text-decoration: none;
+}
+
+.about>a {
+	font: normal 30px 'Raleway', sans-serif;
+  text-align: center;
+	float:right;
+	margin: 10px 70px 80px 70px;
+	color: white;
+	text-decoration: none;
+
+}
+
+h3 { font: normal 16px 'Raleway', sans-serif; margin: 10px; margin-left: 100px; margin-right: 100px; margin-bottom: 40px; color: red; }
+p { font: normal 15px 'Raleway', sans-serif; margin: 12px; color: darkgreen; }
+
+.all>a {
+	font: normal 30px 'Raleway', sans-serif;
+	margin: 200px 50px;
+	color: #75c59e;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.all a:hover {
+	color: #56a0d3;
+	font-style: italic;
+}
+
+.all:hover {
+ opacity: 0.9;
+}
+
+.leftbox {
+	width: 40%;
+	height: 325px;
+	margin: 3% 3% 3% 7%;
+	float: left;
+	display: block;
+}
+
+.rightbox{
+	width: 40%;
+	height: 325px;
+	margin: 3% 7% 3% 3%;
+	float: left;
+	display: block;
+}
+
+.community {
+  background-image:url(community_magazine/screenshot.jpg);
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+
+.missusa{
+	background-image:url(Miss_USA/screenshot1.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.titanic{
+	background-image:url(titanic.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.moon{
+	background-image:url(Miss_USA/screenshot1.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.trump{
+	background-image:url(trumpdrawing.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.window{
+	background-image:url(rearwindow.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.emotions{
+	background-image:url(emotionsclock.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
+
+.halloween{
+	background-image:url(halloween.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}

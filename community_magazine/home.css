@@ -1,0 +1,489 @@
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Josefin Slab', serif;
+}
+
+/*Type Styles */
+
+.logo>p>a{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 800;
+  font-size: 100px;
+  margin: 5px 25%;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+h1{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
+  font-size: 120px;
+  text-align: left;
+  color: black;
+  margin: 40px auto 0 auto;
+  padding-left: 10px!important;
+  text-decoration: none;
+}
+
+h1>a{
+  color: black;
+  text-decoration: none;
+}
+
+h2{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: italic;
+  color: black;
+  line-height: 0.2;
+  text-align: right;
+  margin: 0 0 100px 0;
+  padding-right: 20px!important;
+}
+h4{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 25px;
+  color: red;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 10px 1px ;
+  text-decoration: none;
+}
+
+.heading p{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+  line-height: 1.4;
+  margin: 20px 0 20px 67%;
+  padding-left: 40px!important;
+}
+
+.heading>p:hover{
+  font-style: italic;
+  color: red;
+}
+
+
+.hover a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+  background-color: white;
+  opacity: 0.5;
+  line-height: 1;
+  padding: 6px;
+  text-align: center;
+  margin: 600px auto 1000px auto;
+  display: block;
+}
+
+img{
+  margin: 30px 0px;
+}
+
+.col-6 a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+  background-color: white;
+  opacity: 0.5;
+  line-height: 1.5;
+  padding: 6px;
+  text-align: center;
+  margin: 600px auto 10px auto;
+  text-decoration: none;
+}
+
+.hover.col-12 a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+  background-color: white;
+  opacity: 0.5;
+  line-height: 1.5;
+  padding: 6px;
+  text-align: center;
+  margin: 600px auto 10px auto;
+  text-decoration: none;
+}
+
+a:hover{
+  font-style: italic;
+  color: #2b9c6c;
+}
+
+/*Global Layout */
+.logo {
+  font-family: 'Josefin Slab', serif;
+  font-size: 100px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
+.menu>ul{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  color: red;
+  position: fixed;
+  top: 260px;
+  left: 10px;
+  list-style: none;
+  opacity: 0;
+  margin: 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 25px 5px;
+  display: block;
+}
+
+/* Article Layout*/
+.issues{
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 3.4%;
+  opacity: 0;
+}
+.issues:hover{
+  opacity: 1;
+}
+.explore{
+  width: 70px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 91%;
+  opacity: 0;
+}
+.explore:hover{
+  opacity: 1;
+}
+
+.cross-container.left {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 3.4%;
+
+}
+.cross-x.left {
+  position: absolute;
+  background: red;
+  top: 25px;
+  left: 0px;
+  width: 60px;
+  height: 10px;
+}
+.cross-y.left {
+  position: absolute;
+  background: #89FFDC;
+  top: 0px;
+  left: 25px;
+  height: 60px;
+  width: 10px;
+}
+.cross-container.left:hover {
+  transform: rotate(45deg);
+  content: "Issues";
+}
+
+.cross-container.right {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 92%;
+}
+.cross-x.right {
+  position: absolute;
+  background: red;
+  top: 25px;
+  left: 0;
+  width: 60px;
+  height: 10px;
+}
+.cross-y.right {
+  position: absolute;
+  background: #89FFDC;
+  top: 0;
+  left: 25px;
+  height: 60px;
+  width: 10px;
+}
+.cross-container.right:hover{
+  transform: rotate(45deg);
+  content: "Articles";
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 80px;
+  text-align: left;
+  color: black;
+}
+
+.heading{
+  background-color: #FFAF06;
+  height:100%;
+  padding: 0;
+  margin: 0 10px 0 10px;
+}
+
+.heading h1{
+  position: relative;
+}
+
+.hover:hover{
+  border-width: 9px;
+  border-color: #2b9c6c;
+  border-style: solid;
+}
+
+/*individial things*/
+
+.heading .col-8 img{
+  padding: 0;
+  margin: auto;
+}
+
+p .col-4 {
+  margin: auto;
+}
+
+/*articles*/
+.semana {
+  background-image:url(img/semana6.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 10px 0;
+}
+
+.dakota{
+  background-image:url(img/dakota6.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 10px 0 10px 0;
+}
+
+.sweetgrass{
+  background-image:url(img/sweetgrass1.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 10px 0 10px 0;
+}
+
+.summerpasture{
+  background-image:url(img/pastures2.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 10px 0;
+}
+
+.holyhell{
+  background-image:url(img/holyhell.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 10px 0 10px 0;
+}
+
+.hasid{
+  background-image:url(img/hasid9.jpg);
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin: 10px 0 10px 0;
+}
+/*media querey*/
+
+@media screen and (max-width: 1325px){
+  /*for big screen*/
+  h1>a{ font-size: 100px;}
+  h2{ font-size: 27px;}
+  .heading p { font-size: 30px;}
+  .heading{ height: 82%;}
+  .dakota{ margin: 0;}
+  .summerpasture{ margin: 0;}
+}
+@media screen and (max-width: 1175px){
+  .logo>p>a { text-align: center;
+    margin: auto;}
+    h1>a{ font-size: 80px;}
+    h2{ font-size: 25px;}
+    .heading p { font-size: 23px;
+      margin: 40px 0 40px 67%;}
+      .heading{ height: 80%;}
+      .dakota{ margin: 0;}
+      .summerpasture{ margin: 0;}
+    }
+
+
+    @media screen and (max-width: 950px){
+      /*tablet size - if the screen is smaller than 1000 then apply these */
+      h1>a{ font-size: 65px;}
+      h2{ font-size: 15px;
+        margin: 10px auto 40px auto;
+        padding: 0 20px!important;}
+      .heading p { font-size: 18px;
+          margin: 70px 0 40px 67%;}
+      .heading{ height: 75%;}
+      img .col-p-12{ width: 100%;}
+      .dakota{ margin: 0;}
+      .summerpasture{ margin: 0;}
+      .cross-container.left {
+        top: 100px;
+        left: 2.4%;}
+      .cross-container.right {
+        top: 100px;
+        left: 90%;
+        }
+
+        }
+
+        @media screen and (max-width: 750px){
+          /*smaller mobile size - if the screen is smaller than 760 then apply these */
+
+          [class*="col-"] {
+            width: 100%;
+            padding: 10px;
+          }
+          .col-p-6{
+            width: 100%;
+          }
+          .col-p-12{
+            width: 100%;
+          }
+
+          .a{
+            margin: 0!important;
+          }
+          .logo{
+            width: 100%;
+            margin: 0;
+            text-align: center;
+          }
+
+          .logo>p>a{
+            text-align: center;
+            font-size: 55px;
+            padding: 0!important;
+          }
+
+          h1>a{
+            font-size: 90px;
+            margin: 30px 25px 0 20px;
+            text-align: left;
+            padding-left: 10px!important;
+          }
+          h2{
+            margin: 10px 0 30px 0;
+            font-size: 35px;
+            padding-right: 35px!important;
+          }
+          .heading p{
+            font-size: 30px;
+            margin: 30px 65px;
+          }
+          .col-12>a{
+            font-size: 25px!important;
+            margin: 300px auto 5px auto;
+          }
+
+          .heading{
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            margin: auto;
+          }
+
+          img.col-p-12{
+            width: 95%;
+            margin: 0 2.5%;
+          }
+
+          .semana.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .dakota.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .sweetgrass.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .summerpasture.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .holyhell.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+          .hasid.col-p-12{
+            width: 100%;
+            height:70%;
+            margin: 0;
+          }
+        }
+
+        @media screen and (max-width: 700px){
+          .logo>p>a{ margin: 5px 3%}
+          .cross-container.left {
+            top: 100px;
+            left: 2.4%;}
+          .cross-container.right {
+            top: 100px;
+            left: 84%;
+            }
+        }

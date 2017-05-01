@@ -1,0 +1,327 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Josefin Slab', serif;
+}
+
+/*Type Styles */
+
+.logo>p>a{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 800;
+  font-size: 70px;
+  margin: auto;
+  text-align: center;
+}
+
+h1{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+    font-size: 100px;
+    text-align: center;
+    color: black;
+    margin: auto;
+    }
+
+h2{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 500;
+    font-size: 35px;
+    font-style: italic;
+    color: black;
+    line-height: 0.2;
+    text-align: right;
+    margin: 0 0 100px 0;
+}
+h4{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 25px;
+  color: red;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 10px 1px ;
+  text-decoration: none;
+}
+
+p{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: black;
+    line-height: 1.7;
+    margin: 20px 0 20px 30px;
+}
+
+a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+  font-size: 35px;
+  line-height: 1;
+  text-align: left;
+  text-decoration: none;
+  margin: 56% auto 10px auto;
+  display: block;
+}
+
+p .pullquote{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: black;
+  line-height: 1.7;
+  margin: 20px 0 20px 30px;
+}
+
+.col-6 a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 1.5;
+  padding: 6px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.col-12 a {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: black;
+  font-size: 35px;
+  padding: 6px;
+  margin: auto;
+  text-decoration: none;
+}
+
+a:hover{
+  font-style: italic;
+  color: #2b9c6c;
+  font-size: 38px;
+}
+
+/*Global Layout */
+.logo {
+  font-family: 'Josefin Slab', serif;
+  font-size: 100px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.grid-base{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.grid-base .col-1{
+    height: 8000px;
+}
+
+/* Article Layout*/
+.issues{
+  width: 100px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 3.4%;
+  opacity: 0;
+}
+.issues:hover{
+  opacity: 1;
+}
+.explore{
+  width: 70px;
+  height: 30px;
+  position: fixed;
+  top: 160px;
+  left: 91%;
+  opacity: 0;
+}
+.explore:hover{
+  opacity: 1;
+}
+.cross-container.left {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 3.4%;
+
+}
+.cross-x.left {
+  position: absolute;
+  background: red;
+  top: 25px;
+  left: 0px;
+  width: 60px;
+  height: 10px;
+}
+.cross-y.left {
+  position: absolute;
+  background: #89FFDC;
+  top: 0px;
+  left: 25px;
+  height: 60px;
+  width: 10px;
+}
+.cross-container.left:hover {
+  transform: rotate(45deg);
+  content: "Issues";
+}
+
+.cross-container.right {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 92%;
+}
+.cross-x.right {
+  position: absolute;
+  background: red;
+  top: 25px;
+  left: 0;
+  width: 60px;
+  height: 10px;
+}
+.cross-y.right {
+  position: absolute;
+  background: #89FFDC;
+  top: 0;
+  left: 25px;
+  height: 60px;
+  width: 10px;
+}
+.cross-container.right:hover{
+  transform: rotate(45deg);
+  content: "Articles";
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+  font-size: 80px;
+  text-align: left;
+  color: black;
+}
+
+.title{
+    font-style: italic;
+    background-color: #89FFDC;
+    border: 65px;
+    border-style: solid;
+    border-color: #FFAF06;
+    padding: 0;
+    margin: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/*individial things*/
+
+img.col-6{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*articles*/
+
+.religion {
+    float: left;
+    margin: 0px;
+}
+
+.religion a {
+  margin: 6.5% 0 4% 55%;
+}
+
+.untouched a {
+  margin: 5.8% 0 4% 55%;
+}
+
+@media screen and (max-width: 750px){
+  /*smaller mobile size - if the screen is smaller than 760 then apply these */
+  [class*="col-"] {
+    width: 250%;
+    padding: 0;
+  }
+
+  .col-p-12{
+    width: 100%;
+  }
+  .title.col-p-12{
+    width: 100%;
+  }
+  .religion.col-p-12{
+    width: 100%;
+  }
+  .untouched.col-p-12{
+    width: 100%;
+  }
+.logo>p>a {
+  font-size: 60px;
+}
+h1{
+  font-size: 70px;
+}
+
+.religion a{
+  margin: 10px auto;
+}
+.untouched a{
+  margin: 10px auto;
+}
+
+.col-12 a{
+  padding: 20px;
+  padding-left: 20%;
+  margin: 0 20px;
+  font-size: 25px;
+}
+img.col-6{
+  margin: 0 0 20px 0;
+}
+.cross-container.left {
+  top: 100px;
+  left: 2.4%;}
+.cross-container.right {
+  top: 100px;
+  left: 84%;
+    }
+
+  }
+@media screen and (max-width: 460px){
+
+  .logo>p>a{
+    font-size: 50px;
+  }
+  h1{
+    font-size: 50px;
+  }
+
+}
