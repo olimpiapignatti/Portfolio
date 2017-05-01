@@ -106,7 +106,7 @@ p { font: normal 30px 'Raleway', sans-serif; margin: 12px; color: white; }
 .closedhand { display: block; position: relative; z-index: 1; top: -1150px; left: 20px; }
 
 .thumb { display: block; position: relative; z-index: 6; top: 330px; left: 464px; }
-.thumb:hover {opacity: 0; }
+.thumb:hover {opacity: 0;}
 
 .indexfinger { display: block; position: relative; z-index: 5; top: -267px; left: 399px; }
 .indexfinger:hover {opacity: 0; }

@@ -55,6 +55,17 @@ h3 {
 	color: white;
 	text-decoration: none;
 }
+#nav ul li {
+	font: normal 30px 'Raleway', sans-serif;
+	color: white;
+	margin: 10px 11% 80px 7%;
+	text-decoration: none;
+	position: absolute;
+	list-style: none;
+}
+#nav ul li a .show { display: none; postition: absolute; }
+#nav ul li a:hover .show { display: block; margin-top: 7px; }
+#nav ul li a {font: normal 30px 'Raleway', sans-serif;}
 
 .about>a {
 	font: normal 30px 'Raleway', sans-serif;
@@ -79,12 +90,15 @@ p {
 
 .all>a {
 	font: normal 30px 'Raleway', sans-serif;
-	margin: 200px 50px;
+	margin: 250px 0px;
 	color: #75c59e;
 	background-color: white;
 	text-align: center;
 	text-decoration: none;
 	opacity: 0.8;
+	line-height: 1;
+	position: absolute;
+	width: inherit;
 }
 
 .all a:hover {
