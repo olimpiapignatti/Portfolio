@@ -253,3 +253,10 @@ p {
 	background-size: cover;
 	float: left;
 }
+
+.cuba{
+	background-image:url(semana/semana12.jpg);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
