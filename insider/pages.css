@@ -1,0 +1,142 @@
+html, body { width: 100%; height: 100%; margin:0px; background: url(dot_background.jpg) no-repeat center center fixed; background-size: cover;  }
+
+@font-face {
+	font-family: 'Bungee', cursive;
+	font-family: 'Rock Salt', cursive;
+	font-family: 'Press Start 2P', cursive;
+	font-family: 'Yatra One', cursive;
+	font-family: 'Exo', sans-serif;
+	font-family: 'Play', sans-serif;
+	font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+	font: normal 190px 'Orbitron', sans-serif;
+	text-align: center;
+	margin: 100px auto;
+	color: white;
+	text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5;
+	}
+
+	p {
+		font: normal 75px 'Play', sans-serif;
+	  margin: -5px 0 0px -5px;
+		color: yellow;
+		line-height: 1.5;
+		padding: 6px;
+		text-align: center;
+		width: 100%;
+		text-decoration: none;
+	}
+
+	a {
+	font: normal 70px 'Play', sans-serif;
+	margin: -5px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.box{
+	background-color:rgba(255, 255, 255, 0.8);
+	border: 4px solid black;
+	padding: 15px;
+	width: 100%;
+}
+
+
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+
+.az{
+	margin: 10px 3px 30px 3px;
+}
+
+li {
+	float: left;
+	color: white;
+	background-color: black;
+	list-style: none;
+	margin: 10px 40px 30px 40px;
+}
+li>a{
+	color: yellow;
+}
+ul{
+	margin-bottom: 20px;
+}
+.genreslist{
+	height: 80%;
+	border: 1px solid black;
+	margin-bottom: 300px;
+}
+.artistslist{
+	margin-top: 60%;
+}
+.accountlist{
+	margin-top: 100px;
+}
+.space {
+	margin: 11% 0px;
+}
+
+.icons{
+	position: fixed;
+	bottom: -10px;
+	width: 102%;
+	margin: 0 0 0 -9px;
+}
+.week{
+	position: fixed;
+	top: 90%;
+	left: 0;
+	width: 21%;
+	height: 10%;
+}
+.artists {
+	position: fixed;
+	top: 90%;
+	left: 20%;
+	width: 21%;
+	height: 10%;
+}
+.genres {
+	position: fixed;
+	top: 90%;
+	left: 40%;
+	width: 21%;
+	height: 10%;
+}
+.clubs {
+	position: fixed;
+	top: 90%;
+	left: 60%;
+	width: 21%;
+	height: 10%;
+}
+.account {
+	position: fixed;
+	top: 90%;
+	left: 80%;
+	width: 21%;
+	height: 10%;
+}
+
+.last{
+	margin-bottom: 250px;
+}
+.save{
+	border: 6px solid white;
+	margin-top: 70px;
+}

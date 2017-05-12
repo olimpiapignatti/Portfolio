@@ -1,0 +1,145 @@
+html, body { width: 100%; height: 100%; margin: 0px; background: url(dot_background.jpg) no-repeat center center fixed; background-size: cover; }
+
+@font-face {
+	font-family: 'Bungee', cursive;
+	font-family: 'Rock Salt', cursive;
+	font-family: 'Press Start 2P', cursive;
+	font-family: 'Yatra One', cursive;
+	font-family: 'Exo', sans-serif;
+	font-family: 'Play', sans-serif;
+	font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+	font: normal 175px 'Orbitron', sans-serif;
+	text-align: center;
+	margin: 100px auto;
+	color: white;
+	text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5 ;
+}
+
+p {
+	font: normal 85px 'Play', sans-serif;
+	margin: 0px;
+	color: yellow;
+	background-color: black;
+	line-height: 1.5;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li { font: normal 20px 'Play', sans-serif; margin: 12px; color: #f5ff55; }
+
+a {
+	font: normal 90px 'Play', sans-serif;
+	margin: 5px;
+	color: yellow;
+	background-color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+a:hover { color: yellow; }
+
+.col-12 {width: 100%;}
+
+.icons{
+	position: fixed;
+	bottom: -10px;
+	width: 102%;
+	margin: 0 0 0 -9px;
+}
+.week{
+	position: fixed;
+	top: 90%;
+	left: 0;
+	width: 21%;
+	height: 10%;
+	background-color: transparent;
+}
+.artists {
+	position: fixed;
+	top: 90%;
+	left: 20%;
+	width: 21%;
+	height: 10%;
+	background-color: transparent;
+}
+.genres {
+	position: fixed;
+	top: 90%;
+	left: 40%;
+	width: 21%;
+	height: 10%;
+	background-color: transparent;
+}
+.clubs {
+	position: fixed;
+	top: 90%;
+	left: 60%;
+	width: 21%;
+	height: 10%;
+	background-color: transparent;
+}
+.account {
+	position: fixed;
+	top: 90%;
+	left: 80%;
+	width: 21%;
+	height: 10%;
+	background-color: transparent;
+}
+
+.event {
+	margin-bottom: 190px;
+	background-color:rgba(255, 255, 255, 0.6);
+	border: 10px solid white;
+	padding: 30px 0;
+}
+
+.title{
+	margin: 50px 20px 150px 20px;
+}
+.artistgenre {
+	margin: 35%;
+}
+.artistlink {
+	margin: 100px 2% 50px 2%;
+	background-color: black;
+}
+.underline {
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+.buytickets {
+	font-size: 150px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 4px solid white;
+	margin: 0;
+	padding: 20px 40px;
+}
+.clublocation {
+	background-color: black;
+	padding: 10px;
+}
+
+.social{
+	margin: 10px 12% 60px 12%;
+}
+
+.save{
+	border: 6px solid white;
+	margin-top: 70px;
+}
+/*.save:visited{
+	color: green;
+	background-color: yellow;
+}*/
+iframe {
+	margin: 50px 0 100px 0;
+}
+.last{
+	margin-bottom: 250px;
+}

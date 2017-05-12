@@ -260,3 +260,10 @@ p {
 	background-size: cover;
 	float: left;
 }
+
+.insider{
+	background-image:url(insider/insider.png);
+	background-position: center;
+	background-size: cover;
+	float: left;
+}
